@@ -1,0 +1,15 @@
+
+.center{
+	margin-left: 70px;
+}
+
+.boutton{
+
+	background-color: #34C924;
+	color: white;
+	font-weight:bold;
+	width: 90px;
+	height: 35px;
+	font-size: 1.4em;
+	border: none;
+}

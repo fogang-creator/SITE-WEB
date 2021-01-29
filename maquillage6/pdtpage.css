@@ -1,0 +1,79 @@
+body{
+    background-color: #eeeeee;
+}
+
+#pdtbody{
+    margin-top: 120px;
+}
+
+.nouveaustock{
+    background-color: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-md-7 h2{
+    color: #555;
+
+}
+
+.stars{
+    height: 40px;
+}
+.avis{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.prix{
+    color: #34C924;
+    font-size: 20px;
+    font-weight:800;
+    padding-top: 20px;
+}
+
+.taxes{
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#quantite{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    width: 50px;
+    text-align: center;
+}
+
+.cart{
+    margin-top: 25px;
+    background-color: rgb(7, 11, 33) ;
+    color: #ffffff;
+    height: 50px;
+    width: 340px;
+    font-size:1.4em;
+    font-weight: bold;
+}
+
+.cart:hover{
+    color: #ffffff;
+    opacity: .7;
+}
+
+.payment{
+    width: 300px;
+    margin-top: 30px;
+   margin-left: 20px;
+}
+
+ .col-md-7 h2{
+    margin-top: 40px;
+   
+}
+.col-md-7 p.description{
+    margin-top: 20px;
+    text-align: justify;
+}
+

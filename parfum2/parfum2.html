@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="pdtpage.css">
+    <link rel="stylesheet" href="produits.css">
+    <title>PAGE PRODUIT</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark auto-hiding-navbar">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand">SMART LADY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li><a href="../index.html" class="nav-link px-4"> Acceuil</a></li>
+            <li class="nav-item dropdown px-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                Produits
+              </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../VISAGES/visage.html">Soins de visage</a></li>
+                    <li><a class="dropdown-item" href="../CHEVEUX/cheveux.html">Soins de cheveux</a></li>
+                    <li><a class="dropdown-item" href="../MAQUILLAGE/maquillage.html">Maquillage</a></li>
+                    <li><a class="dropdown-item" href="../MANICURE/manicure.html">Manicure</a></li>
+                    <li><a class="dropdown-item" href="../PARFUMS/parfums.html">Parfums</a></li>
+                </ul>
+              <li><a href="../sessions/contact.html" class="nav-link px-4"> Contacts</a></li>
+              <!-- <li><a href="" class="nav-link px-4"> Recherche</a></li> -->
+              <li><a href="../sessions/connexion.html" class="nav-link px-4"> Connexion</a></li>
+              <li><a href="../sessions/inscrivezvous.html" class="nav-link px-4"> Inscrivez-vous</a></li>
+          </ul>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Recherche" class="form-control">
+        </form>
+    </nav>
+      </div>
+      </nav><!--Navbarend-->
+      
+    <div class="container">
+      <section id="pdtbody"></section>
+        <div class="row"> <!--row1start-->
+            <div class="col-md-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../PARFUMS/pf2.jpg" class="d-block w-100" alt="face1">
+                      </div>
+                     
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="col-md-7">
+                <p class="nouveaustock text-center">New</p>
+                <h2 >Eau de Parfum JOY</h2>
+                <div class="avis">
+                <img src="stars1.png" alt="stars" class="stars">
+                 15 avis
+                </div>
+                <p class="prix"> EUROS € 19,99</p>
+                <p class="taxes">Taxes incluses</p>
+                <p><b>Condition: </b> En Stock</p>  
+                <p><b>Condition: </b> Nouveau</p>
+
+                <label for="quantite" class="qte"> Quantité:</label>
+                <select name="quantite" id="quantite">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                    <option value="1">4</option>
+                    <option value="1">5</option>
+                    <option value="1">6</option>
+                </select></br>
+                <a href="../PARFUMS/payment/paiement.html"><button type="button" class=" btn btn-default cart">Ajouter au Panier</button></a><br>
+                <img src="payment.jpg" alt="payment" class="payment img-fluid">
+                
+                <!--Description du produit-->
+
+                <h2 class="text-center">Qualité excellente</h2>
+                <p class="description">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.</p>
+                <h2 class="text-center">Utilisation facile</h2>
+                <p class="description">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.</p>
+                <h2 class="text-center">Résultats rapide</h2>
+                <p class="description">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.</p>
+
+            </div>
+        </div><!--row1end-->
+      </section>
+    </div>
+
+<!--VOUS ALLEZ AUSSI AIMER-->
+
+<h1 class="text-center" style="margin-top: 20px; margin-bottom: 30px;"> Vous allez aussi aimer</h1>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <!--Debut du slider 1-->
+      <div class="row">  
+        <div class="col-3"><a href="../maquillage6/maquillage6.html"><img src="../MAQUILLAGE/6a.png" class="d-block w-100" alt="..."></a></div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../manicure1/manicure1.html"><img src="../MANICURE/1.png" class="d-block w-100" alt="..."> </a></div>
+        <div class="col-3"><a href="../visage1/visage1.html"><img src="../VISAGES/1.jpg" class="d-block w-100" alt="..."></a></div>
+        <div class="col-3"><a href="../cheveux2/cheveux2.html"><img src="../CHEVEUX/2.png" class="d-block w-100" alt="..."></a></div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+       <!--Fin du slider 1-->
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <!--Debut du slider 2-->
+      <div class="row">  
+        <div class="col-3"><a href="../parfum1/parfum1.html"><img src="../PARFUMS/pf1.jpg" class="d-block w-100" alt="..."></a></div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../parfum2/parfum2.html"><img src="../PARFUMS/pf2.jpg" class="d-block w-100" alt="..."></a></div>
+        <div class="col-3"><a href="../maquillage4/maquillage4.html"><img src="../MAQUILLAGE/4.png" class="d-block w-100" alt="..."></a></div>
+        <div class="col-3"><a href="../manicure2/manicure2.html"><img src="../MANICURE/2a.png" class="d-block w-100" alt="..."></a></div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+       <!--Fin du slider 2-->
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000">
+      <!--Debut du slider 3-->
+      <div class="row">  
+        <div class="col-3"><a href="../maquillage12/maquillage12.html"><img src="../MAQUILLAGE/12b.png" class="d-block w-100" alt="..."></a></div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../cheveux5/cheveux5.html"><img src="../CHEVEUX/5.png" class="d-block w-100" alt="..."></a></div>
+        <div class="col-3"><a href="../parfum3/parfum3.html"><img src="../PARFUMS/pf3.jpg" class="d-block w-100" alt="..."></a></div>
+        <div class="col-3"><a href="../visage3/visage3.html"><img src="../VISAGES/3.jpg" class="d-block w-100" alt="..."></a></div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+       <!--Fin du slider 3-->
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+                                    <!--DANS LA MEME GAMME-->
+<h1 class="text-center" style="margin-top: 20px; margin-bottom: 30px;"> Dans la même gamme</h1>
+<div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <!--Debut du slider 1-->
+      <div class="row">  
+        <div class="col-3"><a href="../parfum5/parfum5.html"><img src="../PARFUMS/pf5.jpg" class="d-block w-100" alt="..."> </a> </div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../visage2/visage2.html"><img src="../VISAGES/2.jpg" class="d-block w-100" alt="...">   </a> </div>
+        <div class="col-3"><a href="../visage7/visage7.html"><img src="../VISAGES/7a.jpg" class="d-block w-100" alt="...">  </a> </div>
+        <div class="col-3"><a href="../cheveux8/cheveux8.html"><img src="../CHEVEUX/8B.png" class="d-block w-100" alt="...">  </a> </div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+       <!--Fin du slider 1-->
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <!--Debut du slider 2-->
+      <div class="row">  
+        <div class="col-3"><a href="../parfum12/parfum12.html"><img src="../PARFUMS/pf12.jpg" class="d-block w-100" alt="..."></a> </div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../parfum2/parfum2.html"><img src="../PARFUMS/pf2.jpg" class="d-block w-100" alt="..."> </a> </div>
+        <div class="col-3"><a href="../cheveux12/cheveux12.html"><img src="../CHEVEUX/12c.png" class="d-block w-100" alt="..."> </a> </div>
+        <div class="col-3"><a href="../manicure3/manicure3.html"><img src="../MANICURE/3.png" class="d-block w-100" alt="...">  </a> </div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+       <!--Fin du slider 2-->
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000">
+      <!--Debut du slider 3-->
+      <div class="row">  
+        <div class="col-3"><a href="../manicure12/manicure12.html"><img src="../MANICURE/12b.png" class="d-block w-100" alt="..."> </a> </div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../cheveux10/cheveux10.html"><img src="../CHEVEUX/10a.png" class="d-block w-100" alt="...">  </a> </div>
+        <div class="col-3"><a href="../parfum11/parfum11.html"><img src="../PARFUMS/pf11.jpg" class="d-block w-100" alt="..."> </a> </div>
+        <div class="col-3"><a href="../visage3/visage3.html"><img src="../VISAGES/3.jpg" class="d-block w-100" alt="...">    </a> </div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+       <!--Fin du slider 3-->
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval2" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval2" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+                                                <!--COMPLETEZ VOTRE LOOK-->
+
+<h1 class="text-center" style="margin-top: 20px; margin-bottom: 30px;"> Complétez votre look </h1>
+<div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <!--Debut du slider 1-->
+      <div class="row">  
+        <div class="col-3"><a href="../maquillage8/maquillage8.html"><img src="../MAQUILLAGE/8.png" class="d-block w-100" alt="..."></a> </div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../parfum8/parfum8.html"><img src="../PARFUMS/pf8.jpg" class="d-block w-100" alt="..."> </a> </div>
+        <div class="col-3"><a href="../visage3/visage3.html"><img src="../VISAGES/3.jpg" class="d-block w-100" alt="...">   </a> </div>
+        <div class="col-3"><a href="../cheveux4/cheveux4.html"><img src="../CHEVEUX/4b.jpg" class="d-block w-100" alt="...">  </a> </div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+        <!--Fin du slider 1-->
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <!--Debut du slider 2-->
+      <div class="row">  
+        <div class="col-3"><a href="../maquillage7/maquillage7.html"><img src="../MAQUILLAGE/7.png" class="d-block w-100" alt="..."> </a></div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../parfum7/parfum7.html"><img src="../PARFUMS/pf7.jpg" class="d-block w-100" alt="...">  </a></div>
+        <div class="col-3"><a href="../cheveux8/cheveux8.html"><img src="../CHEVEUX/8B.png" class="d-block w-100" alt="...">   </a></div>
+        <div class="col-3"><a href="../maquillage4/maquillage4.html"><img src="../MAQUILLAGE/4a.png" class="d-block w-100" alt="..."></a></div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+        <!--Fin du slider 2-->
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000">
+      <!--Debut du slider 3-->
+      <div class="row">  
+        <div class="col-3"><a href="../parfum2/parfum2.html"><img src="../PARFUMS/pf2b.png" class="d-block w-100" alt="..."></a></div>  <!--insertion d'image dans le carousel-->
+        <div class="col-3"><a href="../cheveux6/cheveux6.html"><img src="../CHEVEUX/6a.png" class="d-block w-100" alt="...">  </a></div>
+        <div class="col-3"><a href="../parfum8/parfum8.html"><img src="../PARFUMS/pf8.jpg" class="d-block w-100" alt="..."> </a></div>
+        <div class="col-3"><a href="../visage3/visage3.html"><img src="../VISAGES/3.jpg" class="d-block w-100" alt="...">   </a></div>  <!--On peut aussi remplacer img par un card pour ajouter un prix et un title du produit-->
+      </div>
+        <!--Fin du slider 3-->
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval3" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval3" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+          <!--FOOTER-->
+    <section id="footer">
+      <div class="container">
+          <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                      <h2>Informations</h2>
+                      <ul class="list-group">
+                          <li class="list-group-item-dark"><a href=""><b>Nous contacter</b></a></li>
+                          <li class="list-group-item-dark">Retrouvez-nous sur <a href="#" style="color:turquoise;">Facebook</a></li>
+                          
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                      <h2>Nos Politiques</h2>
+                      <ul class="list-group">
+                          <li class="list-group-item-dark"><a href="">Politique de confidentialité</a></li>
+                          <li class="list-group-item-dark"><a href="">Politique de retour</a></li>
+                          <li class="list-group-item-dark"><a href="">Conditions d'utilisation</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                      <h2>Contactez-nous</h2>
+                      <ul class="list-group">
+                          <li class="list-group-item-dark">Email: smartlady@gmail.com</li>
+                          <li class="list-group-item-dark">1 Avenue Monge, 37200 Tours, France</li>
+                          <li class="list-group-item-dark">Tel:+33753675586</li>
+                      </ul>
+                  </div>
+          </div>
+      </div>
+    </section> 
+    <!--endsectionfooter
+           
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
